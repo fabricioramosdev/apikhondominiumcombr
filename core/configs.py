@@ -8,7 +8,7 @@ class Settings(BaseSettings):
     API_V1_STR: str = '/api/v1'
     API_V2_STR: str = '/api/v2'
     
-    DB_URL: str = 'postgresql+asyncpg://postgres:postgres@localhost:5432/khondominium'
+    DB_URL: str = 'postgresql+asyncpg://tvyjxoryioyven:ecc0a6540844dd12a252d9342429675f35618aeeadac57c5818e751f2acfe163@ec2-3-210-173-88.compute-1.amazonaws.com:5432/d1f77p8c2b8ppv'
     DBBaseModel = declarative_base()
 
     JWT_SECRET: str = 'qS96E1oCfq5gEZH-ngD91NC2qkcl0cffhNTIDGpF4pw'
