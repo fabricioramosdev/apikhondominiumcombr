@@ -18,12 +18,3 @@ Returns:
 
 app = FastAPI(title='khondominium.com.br API', version='0.0.1', description='Api v1 do khondominium.com.br')
 app.include_router(api_router, prefix=settings.API_V1_STR)
-
-
-if __name__ == '__main__':
-    import uvicorn
-
-    uvicorn.run("main:app", host="0.0.0.0", port=80,
-                log_level='info')
-
-
